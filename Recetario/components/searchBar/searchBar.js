@@ -3,17 +3,16 @@ import {StyleSheet, TextInput} from 'react-native';
 
 
 const Header = () => {
-  const [value, onChangeText] = React.useState('What do you want to eat?');
-
+  
   return (
-    <TextInput style={estilos.searchBar}
-      onChangeText={text => onChangeText(text)}
-      value={value}
+    <TextInput style={styles.searchBar}
+      placeholder="What dou you want to eat?"
+      placeholderTextColor="white"         
     />
   );
 }
 
-const estilos = StyleSheet.create(
+const styles = StyleSheet.create(
   {    
      searchBar:
      {
@@ -24,7 +23,7 @@ const estilos = StyleSheet.create(
       padding: 10,
       width: 350,
       borderRadius: 10,
-      marginTop: 10,      
+      marginTop: 20,      
      }
 
   }

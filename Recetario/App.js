@@ -2,22 +2,27 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import Header from "./components/searchBar/searchBar";
 import Lista from "./components/horizontalList/horizontalList";
+import Lista2 from "./components/horizontalList/horizontalList2";
 
 const App = () => (
-  <View style = {estilos.body}>
+  <View style = {styles.body}>
 
     <Header></Header>
 
+    <Text style = {styles.Let}>TRENDING</Text>
+
     <Lista></Lista>
     
-    <Text style = {estilos.Let}>
-     PRUEBAS
+    <Text style = {styles.Let}>
+     RECENT
     </Text>
+
+    <Lista2></Lista2>
   </View>
 );
 
 
-const estilos = StyleSheet.create(
+const styles = StyleSheet.create(
   {
     body: 
     {
@@ -27,7 +32,8 @@ const estilos = StyleSheet.create(
     },
      Let: 
      {
-       color: 'white'
+       color: 'red',
+       marginTop: 10,       
      }
 
   }

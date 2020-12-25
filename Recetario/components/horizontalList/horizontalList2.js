@@ -41,7 +41,7 @@ const Item = ({ item, onPress, style }) => (
   </TouchableOpacity>
 );
 
-const Lista = () => {
+const Lista2 = () => {
   const [selectedId, setSelectedId] = useState(null);
 
   const renderItem = ({ item }) => {
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   container: 
   {
     backgroundColor: 'red',
-    height: 100,    
+    height: 200,    
     marginTop: 10,
     //marginTop: StatusBar.currentHeight || 0,
   },
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Lista;
+export default Lista2;
 
 
 /*import React, { Component } from 'react';

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { FlatList, SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity } from "react-native";
+import { FlatList, SafeAreaView, StyleSheet, Text, TouchableOpacity, Image} from "react-native";
 import trendingRecipes from './../../RecipesList/trendingRecipes.json';
 
 const Item = ({ item, onPress, style }) => (
   <TouchableOpacity>
-    <TouchableOpacity onPress={onPress} style={[styles.item, style]}>
-        <Text style={styles.item}>{item.image}</Text>
+    <TouchableOpacity onPress={onPress}>
+        <Image source={{uri: item.image}} style={styles.item}/>
         <Text style={styles.title}>{item.recipeName}</Text>
     </TouchableOpacity>
   </TouchableOpacity>
@@ -14,10 +14,8 @@ const Item = ({ item, onPress, style }) => (
 
 const Lista = () => {
   const [selectedId, setSelectedId] = useState(null);
-
   const renderItem = ({ item }) => {
     const backgroundColor = item.id === selectedId ? "#6e3b6e" : "#f9c2ff";
-
     return (
       <Item
         item={item}

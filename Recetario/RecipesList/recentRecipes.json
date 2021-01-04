@@ -1,5 +1,6 @@
 [{
     "id": 1,
+    "image": "https://www.superama.com.mx/views/micrositio/recetas/images/queso-pan-vino/fondue/Web_fotoreceta.jpg",
     "recipeName": "Fondue",
     "ingredients": [{
         "id": 1,
@@ -25,6 +26,7 @@
     "servings": 3
 }, {
     "id": 2,
+    "image": "https://recetas.mx/wp-content/uploads/2019/08/spaghetti-bolognese-106560-1.jpeg",
     "recipeName": "Spaghetti",
     "ingredients": [{
         "id": 1,
@@ -49,7 +51,8 @@
     }],
     "servings": 3
 }, {
-    "id": 2,
+    "id": 3,
+    "image": "https://www.tasteofsouthern.com/wp-content/uploads/2017/09/sausage-balls_17_enjoy.jpg",
     "recipeName": "Sausage Balls",
     "ingredients": [{
         "id": 1,
@@ -74,7 +77,8 @@
     }],
     "servings": 3
 }, {
-    "id": 2,
+    "id": 4,
+    "image": "https://i.ytimg.com/vi/2JFcLHT37ZM/maxresdefault.jpg",
     "recipeName": "BQQ Wings",
     "ingredients": [{
         "id": 1,

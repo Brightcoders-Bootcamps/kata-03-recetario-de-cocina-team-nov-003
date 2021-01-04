@@ -2,8 +2,7 @@ import React from 'react';
 import {StyleSheet, TextInput} from 'react-native';
 
 
-const Header = () => {
-  
+const Header = () => { 
   return (
     <TextInput style={styles.searchBar}
       placeholder="What dou you want to eat?"
@@ -16,14 +15,18 @@ const styles = StyleSheet.create(
   {    
      searchBar:
      {
-      height: 40, 
-      borderColor: 'gray', 
-      borderWidth: 1,
+      marginLeft: 5,
+      backgroundColor: '#495057',
+      height: 35,
+      borderColor: '#495057',
       color: 'white',
-      padding: 10,
-      width: 350,
+      width: 340,
       borderRadius: 10,
-      marginTop: 20,      
+      marginTop: 60,
+      fontSize: 16,
+      paddingLeft: 20,
+      paddingBottom: 5,
+      paddingTop: 5
      }
 
   }

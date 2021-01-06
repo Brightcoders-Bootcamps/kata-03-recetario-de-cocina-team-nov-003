@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, TextInput} from 'react-native';
 
 
-const Header = () => { 
+const NavBar = () => { 
   return (
     <TextInput style={styles.searchBar}
       placeholder="What dou you want to eat?"
@@ -22,7 +22,7 @@ const styles = StyleSheet.create(
       color: 'white',
       width: 340,
       borderRadius: 10,
-      marginTop: 60,
+      marginTop: 20,
       fontSize: 16,
       paddingLeft: 20,
       paddingBottom: 5,
@@ -31,4 +31,4 @@ const styles = StyleSheet.create(
 
   }
 )
-export default Header;
+export default NavBar;

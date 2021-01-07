@@ -4,7 +4,7 @@ import { FlatList, SafeAreaView, StyleSheet, Text, TouchableOpacity, Image} from
 const Item = ({image,name,navigation}) => {
 
     return (
-        <TouchableOpacity onPress={() =>navigation.navigate('Details')}>            
+        <TouchableOpacity onPress={() =>navigation.navigate('ListItem')}>            
             <Image style={styles.image} source={image}></Image>
             <Text style={styles.text}>{name}</Text>
         </TouchableOpacity>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FlatList, SafeAreaView, StyleSheet, Text, TouchableOpacity, Image} from "react-native";
+import { FlatList, StyleSheet, Text, TouchableOpacity, Image} from "react-native";
 
 const Item = ({image,name,navigation}) => {
 

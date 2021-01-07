@@ -4,10 +4,10 @@ import {StyleSheet, TextInput} from 'react-native';
 
 const NavBar = () => { 
   return (
-    <TextInput style={styles.searchBar}
-      placeholder="What dou you want to eat?"
-      placeholderTextColor="white"         
-    />
+  <TextInput style={styles.searchBar}
+    placeholder="What dou you want to eat?"
+    placeholderTextColor="white"         
+  />
   );
 }
 

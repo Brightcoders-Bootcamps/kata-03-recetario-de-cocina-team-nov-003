@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 import NavBar from './searchBar';
 import trendignsRecipes from './trendingsRecipes';
 import ListRecents from './listRecents';
